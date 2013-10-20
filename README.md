@@ -1,5 +1,4 @@
-<center>
-•SŁIMPØST•
+SŁIMPØST
 ========
 
 Minimal theme for Ghost
