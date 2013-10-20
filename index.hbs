@@ -1,0 +1,26 @@
+{{!< default}}
+
+<div class="posts-wrapper">
+	<div class="header">
+		<div class="logo"{{#if @blog.cover}} style="background: url({{@blog.cover}});"{{/if}}>
+			<h1>Slimpost</h1>			
+		</div>
+	</div>
+	<div class="posts">
+		{{#foreach posts}}
+
+	    <article class="{{post_class}}">
+	        <header class="post-header">
+	            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>	            
+	            <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
+	        </header>
+	        <section class="post-excerpt">
+	            <p>{{excerpt}}&hellip;</p>
+	        </section>
+	    </article>
+
+	    {{/foreach}}
+
+	    {{pagination}}
+	</div>
+</div>
