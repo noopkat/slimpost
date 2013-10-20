@@ -47,9 +47,9 @@ ARTICLE {
 
 HR {
     height: 11px;
-    color: transparent;
-    background: #fff url('../images/hr.png') no-repeat scroll center;
     border: none;
+    background: #fff url('../images/hr.png') no-repeat scroll center;
+    color: transparent;
 }
 
 .wrapper {
@@ -62,20 +62,20 @@ HR {
 .logo {
     margin-bottom: 20px;            
     background-color: #ccc;
+    background-position: center center;
     color: #fff;            
     text-align: center;
-    background-position: center center;
 }
 
 .logo H1 {
     display: inline-block;
+    margin: 45px 0 15px 0;
     padding: 20px 15px 15px 25px;
     border: 4px solid #fff;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: normal;
-    margin: 45px 0 15px 0;
 }
 
 .logo H1 A {
@@ -135,34 +135,34 @@ HR {
 }
 
 .through-line {
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-    margin: auto;
     position: relative;
+    margin: auto;
+    color: #fff;
     vertical-align: middle;
-    font-family: 'PT Sans', sans-serif;
+    text-align: center;
     text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .through-line:before {
-    content: "";
-    height: 3px;
-    width: 30px;
-    background: #fff;
     display: inline-block;
     margin-right: 12px;
-    vertical-align: middle;
     margin-bottom: 5px;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    content: "";
+    vertical-align: middle;
 }
 
 .through-line:after {
-    content: "";
-    height: 3px;
-    width: 30px;
-    background: #fff;
     display: inline-block;
-    margin-left: 10px;
-    vertical-align: middle;
     margin-bottom: 5px;
+    margin-left: 10px;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    content: "";
+    vertical-align: middle;
 }
