@@ -1,12 +1,13 @@
 {{!< default}}
 
-<div class="posts-wrapper">
-    <div class="header">
+<div class="wrapper">
+    <header class="header">
         <div class="logo"{{#if @blog.cover}} style="background: url({{@blog.cover}});"{{/if}}>
-            <h1>Slimpost</h1>         
+            <h1>{{@blog.title}}</h1>         
         </div>
-    </div>
-    <div class="posts">
+    </header>
+
+    <section class="articles">
         {{#post}}
 
         <article class="{{post_class}}">
@@ -20,5 +21,5 @@
         </article>
 
         {{/post}}
-    </div>
+    </section>
 </div>
