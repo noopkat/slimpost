@@ -2,8 +2,14 @@
 
 <div class="wrapper">
 	<header class="header">
-		<div class="logo"{{#if @blog.cover}} style="background: url({{@blog.cover}});"{{/if}}>
-			<h1>{{@blog.title}}</h1>			
+		<div class="logo"{{#if @blog.cover}} style="background-image: url({{@blog.cover}});"{{/if}}>
+			<h1>
+				<a href="{{@blog.url}}">{{@blog.title}}</a>
+			</h1>	
+
+			<div class="blog-description">
+				<div class="through-line">{{@blog.description}}</div>		
+			</div>
 		</div>
 	</header>
 
@@ -15,6 +21,7 @@
 	            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>	            
 	            <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
 	        </header>
+	        
 	        <section class="post-excerpt">
 	            <p>{{excerpt}}&hellip;</p>
 	        </section>
