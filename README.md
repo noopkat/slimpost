@@ -1,6 +1,6 @@
-SŁIMPØST
+->• SŁIMPØST •<-
 ========
 
-Minimal theme for Ghost
+->Minimal theme for Ghost<-
 
-[Preview picture](https://raw.github.com/bzhnyau/slimpost/master/preview.png)
+->![Preview picture](https://raw.github.com/bzhnyau/slimpost/master/preview.png)<-
