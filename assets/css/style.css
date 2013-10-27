@@ -16,8 +16,14 @@
     src:url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
         url('../fonts/icons.woff') format('woff'),
         url('../fonts/icons.ttf') format('truetype'),
-        url('../fonts/icons.svg#icons') format('svg'),
-        url(http://fonts.googleapis.com/css?family=Varela);
+        url('../fonts/icons.svg#icons') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Varela';
+    src:url(http://fonts.googleapis.com/css?family=Varela);
 }
 
 .icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
