@@ -23,7 +23,7 @@
     font-weight: normal;
     font-style: normal;
     font-family: 'Varela';
-    src:url(http://fonts.googleapis.com/css?family=Varela);
+    src:url(http://fonts.googleapis.com/css?family=Varela) format('truetype');
 }
 
 .icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
