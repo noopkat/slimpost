@@ -94,7 +94,7 @@
 }
 
 BODY {
-    background-color: #ebe8df;
+    background: #ebe8df url('../images/nk.png') scroll; 
 }
 
 PRE {
