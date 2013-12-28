@@ -94,7 +94,8 @@
 }
 
 BODY {
-    background: #ebe8df url('../images/tile01.jpg') scroll; 
+    /*background: #ebe8df; */
+    background-color: #eee;
 }
 
 PRE {
@@ -122,7 +123,8 @@ A:hover {
 }
 
 H1, H2, H3, H4, H5, H6 {
-    font-family: 'Varela', sans-serif;
+    /*font-family: 'Varela', sans-serif;*/
+    font-family: 'Helvetica', sans-serif;
 }
 
 BLOCKQUOTE {
@@ -148,14 +150,14 @@ HR {
 }
 
 .wrapper {
-    margin: 50px auto 0 auto;
+    margin: 0px auto 0 auto;
     padding: 50px 50px 40px 50px;
-    width: 550px;
+    width: 700px;
     background-color: #fff;
 }
 
 .logo {
-    margin-bottom: 20px;            
+    margin-bottom: 50px;            
     background-color: #ccc;
     background-position: center center;
     color: #fff;            
@@ -180,20 +182,21 @@ HR {
 .articles {
     color: #555;
     font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
     line-height: 25px;
 }
 
 .post-header H2 {
     margin: 0;
-    margin-bottom: 3px;
-    font-size: 26px;
+    margin-bottom: 15px;
+    font-size: 30px;
     font-family: 'Varela', sans-serif;
 }
 
 .post-header TIME {
-    color: #777;
-    font-size: 12px;
+    color: #aaa;
+    font-size: 13px;
 }
 
 .post-header {               
@@ -215,9 +218,10 @@ HR {
     transition-duration: 0.8s;
 }
 
-.post IMG {
-    margin-left: -50px;
-    max-width: 650px;
+.post IMG, .post IFRAME {
+    /*margin-left: -50px;*/
+    max-width: 700px;
+    min-width: 700px;
 }
 
 .pagination {
